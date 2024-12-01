@@ -1,0 +1,248 @@
+{
+   "products": [
+    {
+        "id": 1,
+        "title": "Blue iPhone 16 Pro ",
+        "price": 999,
+        "description": "Blue Iphone 16 Pro  With Apple intelligence and AI-Openning capabilities",
+        "category": "Apple products",
+        "image": "/images/appleBlue.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Black iPhone 16 Pro ",
+        "price": 799,
+        "description": "Black Iphone 16 Pro  With Apple intelligence and AI-Openning capabilities",
+        "category": "Apple products",
+        "image": "/images/appleBlack.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Green iPhone 16 Pro ",
+        "price": 899,
+        "description": "Green Iphone 16 Pro  With Apple intelligence and AI-Openning capabilities",
+        "category": "Apple products",
+        "image": "/images/appleGreen.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 525
+        }
+    },
+    {
+        "id": 4,
+        "title": "Pink iPhone 16 Pro ",
+        "price": 999,
+        "description": "Pink Iphone 16 Pro  With Apple intelligence and AI-Openning capabilities",
+        "category": "Apple products",
+        "image": "/images/applePink.jpg",
+        "rating": {
+            "rate": 4.9,
+            "count": 354
+        }
+    },
+    {
+        "id": 5,
+        "title": "White iPhone 16 Pro ",
+        "price": 1099,
+        "description": "White Iphone 16 Pro  With Apple intelligence and AI-Openning capabilities",
+        "category": "Apple products",
+        "image": "/images/appleWhite.jpg",
+        "rating": {
+            "rate": 4.3,
+            "count": 525
+        }
+    },
+    {
+        "id": 6,
+        "title": "Amber yellow S24 | S24+",
+        "price": 1499,
+        "description": "Save up to $600 with instant trade-in creditθ and get additional savings on the Shop Samsung app.",
+        "category": "samsung products",
+        "image": "/images/samsungAmber.jpg",
+        "rating": {
+            "rate": 5.0,
+            "count": 125455
+        }
+    },
+    {
+        "id": 8,
+        "title": "SAMSUNG Galaxy S24 ",
+        "price": 669,
+        "description": "AMOLED 120Hz, Exynos (4nm) 10-Core (International Model Fully Unlocked for AT&T, Verizon, T-Mobile, Global) S921B/DS (w/ 25W Super Fast Charger, Gray",
+        "category": "samsung products",
+        "image": "/images/samsungS24.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 890
+        }
+    },
+    {
+        "id": 7,
+        "title": "SAMSUNG Galaxy S24 Exynos",
+        "price": 669,
+        "description": "AMOLED 120Hz, Exynos (4nm) 10-Core (International Model Fully Unlocked for AT&T, Verizon, T-Mobile, Global) S921B/DS (w/ 25W Super Fast Charger, Gray",
+        "category": "samsung products",
+        "image": "/images/samsungGrey.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+  
+    {
+        "id": 9,
+        "title": "Sandstone Orange S24 5G",
+        "price": 1099,
+        "description": "SAMSUNG Galaxy S24 5G, US Version, 256GB, Sandstone Orange - Unlocked",
+        "category": "samsung products",
+        "image": "/images/samsungOrange.jpg",
+        "rating": {
+            "rate": 4.3,
+            "count": 200
+        }
+    },
+    {
+        "id": 10,
+        "title": "Black galaxy s24 ultra",
+        "price": 109,
+        "description": "SAMSUNG Galaxy S24 Ultra Cell Phone, 256GB AI Smartphone, Unlocked Android, 200MP, 100x Zoom Cameras, Long Battery Life, S Pen, US Version, 2024, Titanium Black",
+        "category": "samsung products",
+        "image": "/images/samsungBlack.jpg",
+        "rating": {
+            "rate": 5,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Black pixel Phone",
+        "price": 1099,
+        "description": "Google Pixel 9 Pro Fold - Unlocked Android Smartphone with Gemini - Advanced Triple Rear Camera System - Foldable Display - Hands-Free Video - Obsidian - 256 GB",
+        "category": "electronics",
+        "image": "/images/pixelPorcelain.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "Google Pixel 9 Pro",
+        "price": 999,
+        "description": "Google Pixel 9 Pro - Unlocked Android Smartphone with Gemini, Triple Rear Camera System, 24-Hour Battery, and 6.3-inch Super Actua Display - Porcelain - 128 GB",
+        "category": "goole products",
+        "image": "/images/pixelHazel.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Google Pixel 9 Pro",
+        "price": 1099,
+        "description": "Google Pixel 9 Pro - Unlocked Android Smartphone with Gemini, Triple Rear Camera System, 24-Hour Battery, and 6.3-inch Super Actua Display - Rose Quartz - 256 GB",
+        "category": "goole products",
+        "image": "/images/pixelRose.jpg",
+        "rating": {
+            "rate": 4.9,
+            "count": 562
+        }
+    },
+    {
+        "id": 14,
+        "title": "Google Pixel 9 ",
+        "price": 799,
+        "description": "Pixel 9 - Unlocked Android Smartphone with Gemini, 24-Hour Battery, Advanced Camera, and 6.3-inch Actua Display - White green - 128 GB",
+        "category": "goole products",
+        "image": "/images/pixelGreen.jpg",
+        "rating": {
+            "rate": 4.9,
+            "count": 562
+        }
+    },
+    {
+        "id": 15,
+        "title": "OPPO Find X8 Pro",
+        "price": 699,
+        "description": "Lightning Snap, AI Telescope Zoom, 5910mAh Battery to support 26-hour streaming",
+        "category": "Oppo products",
+        "image": "/images/oppoWhite.png",
+        "rating": {
+            "rate": 4.9,
+            "count": 956
+        }
+    },
+    {
+        "id": 16,
+        "title": "OPPO Find N3",
+        "price": 2699,
+        "description": "Slim and Lightweight, Vitality Imaging Triple Camera System",
+        "category": "Oppo products",
+        "image": "/images/oppoGold.png",
+        "rating": {
+            "rate": 4.3,
+            "count": 1018
+        }
+    },
+    {
+        "id": 17,
+        "title": "OPPO Find N3 Flip",
+        "price": 1009,
+        "description": "Slim and Lightweight, Vitality Imaging Triple Camera System,Intuitive Cover Screen, Hasselblad Camera for Mobile",
+        "category": "Oppo products",        
+        "image": "/images/oppoFlip.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 1520
+        }
+    },
+    {
+        "id": 18,
+        "title": "OPPO Pad 3 Pro",
+        "price": 998,
+        "description": "Experience the unmatched allure of OPPO Pad 3 Pro, crafted with a unique star trail engraving that ensures every device is truly one of a kind",
+        "category": "Oppo products",        
+        "image": "/images/oppoPad.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 1520
+        }
+    },
+    {
+        "id": 19,
+        "title": "Alienware x16 R2 Gaming Laptop",
+        "price": 1499,
+        "description": "Intel® Core™ Ultra 7 155H Windows 11 HomeNVIDIA GeForce RTX 4060 8GB GDDR6",
+
+        "category": "Dell products",        
+        "image": "/images/alienWare.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 15801
+        }
+    },
+    {
+        "id": 20,
+        "title": "Alienware m18 R2 Gaming Laptop",
+        "price": 1599.99,
+        "description": "Intel® Core™ i7-14650HX Windows 11 Home NVIDIA® GeForce RTX™ 4060 32 GB DDR5 1 TB SSD",
+        "category": "Oppo products",        
+        "image": "/images/alienWareM18.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 12592
+        }
+    }
+    
+
+  ]
+}
