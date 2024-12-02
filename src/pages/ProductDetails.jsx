@@ -17,7 +17,7 @@ function ProductDetails() {
 
   if (!product) {
     return (
-      <section classNameName="h-screen flex justify-center items-center">
+      <section className="h-screen flex justify-center items-center">
         loading...
       </section>
     );

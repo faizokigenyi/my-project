@@ -1,7 +1,7 @@
 [build]
-  command = "npm install && npm start"
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
 
 [dev]
-  command = "npm dev"
-  port = 3000
+  command = "npm run dev"
+  port = 5000
