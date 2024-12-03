@@ -12,14 +12,16 @@ const ProductProvider = ({ children }) => {
       try {
         // Set loading state to true before fetching data
         setLoading(true);
-        const response = await fetch("http://localhost:5000/products");
+        const response = await fetch(
+          "https://mocki.io/v1/8c0cd5cf-6067-4ddb-b11d-403de94ca515"
+        );
         if (!response.ok) {
           throw new Error("Failed to fetch data");
         }
 
         const result = await response.json();
         console.log("result", result);
-        setData(result); // Update state with fetched data
+        setData(result.products); // Update state with fetched data
       } catch (err) {
         setError(err.message); // Handle errors
       } finally {

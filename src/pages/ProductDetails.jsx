@@ -52,7 +52,7 @@ function ProductDetails() {
                 </span>
                 <span className="text-gray-600 dark:text-gray-300">
                   {" "}
-                  ${price}
+                  ${price.toFixed(0)}
                 </span>
               </div>
               <div>

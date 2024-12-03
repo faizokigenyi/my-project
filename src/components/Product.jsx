@@ -37,7 +37,7 @@ export default function Product({ product }) {
 
         <p className="text-gray-600 text-sm mb-4">{description}</p>
 
-        <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2  justify-around">
           <span className="font-bold text--sm"> $ {price}</span>
           <button
             onClick={() => addToCart(product, id)}
@@ -46,8 +46,6 @@ export default function Product({ product }) {
             Add to cart
           </button>
         </div>
-
-   
       </div>
 
     
