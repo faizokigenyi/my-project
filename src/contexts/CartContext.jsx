@@ -31,11 +31,10 @@ const CartProvider = ({ children }) => {
     if (cartItem) {
       const tempCart = cart.map((item) => {
         if (item.id === id) {
-          let newAmount = item.amount + 1;
+          const newAmount = item.amount + 1;
           return { ...item, amount: newAmount };
-        } else {
-          return item;
         }
+        return item;
       });
       setCart(tempCart);
     } else {
