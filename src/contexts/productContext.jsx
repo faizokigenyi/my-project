@@ -1,11 +1,11 @@
 import { createContext, useEffect, useState } from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+import products from "..";
+import { use } from "react";
 
+console.log("products", products);
 
 // read the products data
-
-
-
 
 export const ProductContext = createContext();
 
@@ -14,21 +14,26 @@ const ProductProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  fetch('db.json') // Path to your JSON file
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json(); // Parse the JSON data
-    })
-    .then(data => {
-        // `data` is the parsed JSON object (or array)
-        console.log(data);
-        setData(data.products); // Update state with fetched data
-    })
-    .catch(error => {
-        console.error('Error fetching or parsing the JSON file:', error);
-    });
+  useEffect(() => {
+    setData(products);
+    setLoading(false);
+  }, []);
+
+  // fetch('db.json') // Path to your JSON file
+  //   .then(response => {
+  //       if (!response.ok) {
+  //           throw new Error('Network response was not ok');
+  //       }
+  //       return response.json(); // Parse the JSON data
+  //   })
+  //   .then(data => {
+  //       // `data` is the parsed JSON object (or array)
+  //       console.log(data);
+  //       setData(data.products); // Update state with fetched data
+  //   })
+  //   .catch(error => {
+  //       console.error('Error fetching or parsing the JSON file:', error);
+  //   });
 
   // useEffect(() => {
   //   const fetchData = async () => {
